@@ -1,0 +1,24 @@
+body {
+    position: fixed;
+}
+
+#ship-force-field-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+#ship-pos-container {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: #fff;
+}
+
+#ship-ang-velocity-container {    
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #ccc;
+}

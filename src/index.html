@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <title>Planets</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+  <script>(function () { var script = document.createElement('script'); script.onload = function () { var stats = new Stats(); document.body.appendChild(stats.dom); requestAnimationFrame(function loop() { stats.update(); requestAnimationFrame(loop) }); }; script.src = '//rawgit.com/mrdoob/stats.js/master/build/stats.min.js'; document.head.appendChild(script); })()</script>
+</head>
+
+<body>
+  <div id="debug">
+      <div id="ship-force-field-container">
+        <label>Ship force: </label>
+        <span id="ship-force-field"></span>
+      </div>
+      <div id="ship-ang-velocity-container">
+        <label>Ship velocity: </label>
+        <span id="ship-ang-velocity"></span>
+      </div>
+      <div id="ship-pos-container">
+        <label>Ship position: </label>
+        <span id="ship-pos"></span>
+      </div>
+  </div>
+  <div id="container"></div>
+</body>
+
+</html>

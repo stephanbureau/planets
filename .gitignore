@@ -1,0 +1,14 @@
+# OSX
+.DS_Store
+
+node_modules/
+
+# webpack bundle
+dist/
+
+# logs
+*.log
+
+# linters
+.eslintrc.json
+.sass-lint.yml
